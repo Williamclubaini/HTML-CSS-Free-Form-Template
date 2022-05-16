@@ -10,18 +10,18 @@ body {
     position: absolute;
     width: 100%;
     height: 100vh;
-    background: conic-gradient(#1DA1F2 50%, #5851DB 0);
+    background: conic-gradient(#fff 50%, #ff4a09ed 0);
 }
 .form-section {
     position: relative;
     top: 15%;
     max-width: 550px;
-    border: 1px solid #d39c10;
+    border: 1px solid #ff4a09ed;
     margin-left: auto;
     margin-right: auto;
     height: 600px;
     border-radius: 8px;
-    /* background-color:  #ffc93e; */
+    background-color:  rgba(0, 0,0);
 }
 .form-section header {
     margin-top: 45px;
