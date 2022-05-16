@@ -1,0 +1,124 @@
+@import url('../icon/css/font-awesome.css');
+body {
+    /* background-image: var(--conic-theme-1); */
+    background-color: #e3e3e333;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: conic-gradient(#1DA1F2 50%, #5851DB 0);
+}
+.form-section {
+    position: relative;
+    top: 15%;
+    max-width: 550px;
+    border: 1px solid #d39c10;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    border-radius: 8px;
+    /* background-color:  #ffc93e; */
+}
+.form-section header {
+    margin-top: 45px;
+}
+.form-section header h1, p {
+    text-align: center;
+}
+.form-section header  p {
+    margin-top: -15px;
+}
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 50px;
+}
+.form-section form input[type="email"],input[type="password"] {
+    height: 33px;
+    border-radius: 5px;
+
+}
+.form-section form input[type = "checkbox"] { 
+    margin-left: -14%;
+}
+.form-section form button {
+    height: 40px;
+    width: 50%;
+    border-radius: 8px;
+    background-color: #ff0000cc;
+    color: #fff;
+    border: 1px solid #ff0000cc;
+    cursor: pointer;
+    transition: 1s;
+}
+.form-section form button:hover{
+    background-color: #ff000066;
+}
+.form-section .container-sm-box {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* options */
+.social-media{
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+    height: auto;
+    width: auto;
+}
+.social-media > div {
+    border-radius: 50%;
+    height: 43px;
+    width: 43px;
+    transition: 1.7s;
+}
+.social-media i {
+    margin: 13px;
+    font-size: larger;
+    color: #fff;
+}
+.social-media .facebook{
+    border: 1px solid #3b5998;
+}
+.social-media .twitter {
+    border: 1px solid #1DA1F2;
+}
+.social-media .linkedin {
+    border: 1px solid #0e76a8;
+}
+.social-media .instagram {
+    border: 1px solid #5851DB;
+}
+.social-media .facebook i {
+    color: #3b5998;
+}
+.social-media .twitter i {
+    color: #1DA1F2;
+}
+.social-media .linkedin i {
+    color: #0e76a8;
+}
+.social-media .instagram i {
+    color: #5851DB;
+}
+.social-media .facebook:hover{
+    background-color: #3b5998;
+}
+.social-media .twitter:hover{
+    background-color: #1DA1F2;
+}
+.social-media .linkedin:hover {
+    background-color: #0e76a8;
+}
+.social-media .instagram:hover {
+    background-color: #5851DB;
+}
+.social-media > div:hover i {
+    color: #fff;
+}
