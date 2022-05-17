@@ -19,50 +19,50 @@ body {
     border: 1px solid #dd450fed;
     margin-left: auto;
     margin-right: auto;
-    height: 705px;
+    height: 710px;
     border-radius: 8px;
     background-color: #fff;
 }
-.form-section header .logo {
+.logo {
     display: flex;
     justify-content: center;
 }
-.form-section header .logo > div {
+.logo > div {
     border-radius: 50%;
     height: 123px;
     max-width: 123px;
     border: 1px solid #e1e6e9;
 }
-.form-section header .logo > div img{
+.logo > div img{
     border-radius: 50%;
     height: 100%;
     width: 100%;
     object-fit: scale-down;
 }
-.form-section header {
+header {
     margin-top: 45px;
 }
-.form-section header h1, p {
+header h1, p {
     text-align: center;
 }
-.form-section header  p {
+header  p {
     margin-top: -15px;
 }
-.form-section form {
+form {
     display: flex;
     flex-direction: column;
     gap: 18px;
     padding: 50px;
 }
-.form-section form input[type="email"],input[type="password"] {
+form input[type="email"],input[type="password"] {
     height: 33px;
     border-radius: 5px;
 
 }
-.form-section form input[type = "checkbox"] { 
+form input[type = "checkbox"] { 
     margin-left: -14%;
 }
-.form-section form button {
+form button {
     height: 40px;
     width: 50%;
     border-radius: 20px;
@@ -72,26 +72,20 @@ body {
     cursor: pointer;
     transition: 1s;
 }
-.form-section form button:hover{
+form button:hover{
     background-color: #03b3ffb3;
     border-radius: 4px;
 }
-.form-section .container-sm-box {
+.container-sm-box {
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -30px;
-    border: 1px solid black;
+    margin-top: -5px;
 }
-.form-section .options {
+.information {
     background-color: dodgerblue;
-    padding-left: 20px;
-    padding-right: auto;
-    line-height: 20px;
     font-size: medium;
-}
-.form-section .options a {
-    text-decoration: none;
+    text-align: center;
 }
 /* options */
 .social-media{
@@ -100,54 +94,68 @@ body {
     padding: 8px;
     height: auto;
     width: auto;
+    align-items: center;
+    justify-content: space-between;
 }
-.social-media > div {
+.icons-box {
+    display: flex;
+    gap: 4px;
+}
+.icons-box > div {
     border-radius: 50%;
     height: 43px;
     width: 43px;
     transition: 1.7s;
 }
-.social-media i {
+.icons-box i {
     margin: 13px;
     font-size: larger;
     color: #fff;
 }
-.social-media .facebook{
+.facebook{
     border: 1px solid #3b5998;
 }
-.social-media .twitter {
+.twitter {
     border: 1px solid #1DA1F2;
 }
-.social-media .linkedin {
+.linkedin {
     border: 1px solid #0e76a8;
 }
-.social-media .instagram {
+.instagram {
     border: 1px solid #5851DB;
 }
-.social-media .facebook i {
+.facebook i {
     color: #3b5998;
 }
-.social-media .twitter i {
+.twitter i {
     color: #1DA1F2;
 }
-.social-media .linkedin i {
+.linkedin i {
     color: #0e76a8;
 }
-.social-media .instagram i {
+.instagram i {
     color: #5851DB;
 }
-.social-media .facebook:hover{
+.facebook:hover{
     background-color: #3b5998;
 }
-.social-media .twitter:hover{
+.twitter:hover{
     background-color: #1DA1F2;
 }
-.social-media .linkedin:hover {
+.linkedin:hover {
     background-color: #0e76a8;
 }
-.social-media .instagram:hover {
+.instagram:hover {
     background-color: #5851DB;
 }
-.social-media > div:hover i {
+.icons-box > div:hover i {
     color: #fff;
+}
+.social-media a {
+    text-decoration: none;
+}
+.social-media a i {
+    color: #000;
+    font-size: medium;
+    margin: 0px;
 }
