@@ -14,14 +14,30 @@ body {
 }
 .form-section {
     position: relative;
-    top: 15%;
+    top: 9%;
     max-width: 550px;
     border: 1px solid #ff4a09ed;
     margin-left: auto;
     margin-right: auto;
-    height: 600px;
+    height: 705px;
     border-radius: 8px;
-    background-color:  rgba(0, 0,0);
+    background-color: #fff;
+}
+.form-section header .logo {
+    display: flex;
+    justify-content: center;
+}
+.form-section header .logo > div {
+    border-radius: 50%;
+    height: 123px;
+    max-width: 123px;
+    border: 1px solid #000;
+}
+.form-section header .logo > div img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
 }
 .form-section header {
     margin-top: 45px;
