@@ -16,7 +16,7 @@ body {
     position: relative;
     top: 9%;
     max-width: 550px;
-    border: 1px solid #ff4a09ed;
+    border: 1px solid #dd450fed;
     margin-left: auto;
     margin-right: auto;
     height: 705px;
@@ -31,7 +31,7 @@ body {
     border-radius: 50%;
     height: 123px;
     max-width: 123px;
-    border: 1px solid #000;
+    border: 1px solid #e1e6e9;
 }
 .form-section header .logo > div img{
     border-radius: 50%;
@@ -65,20 +65,33 @@ body {
 .form-section form button {
     height: 40px;
     width: 50%;
-    border-radius: 8px;
-    background-color: #ff0000cc;
+    border-radius: 20px;
+    background-color: #03b3ff;
     color: #fff;
-    border: 1px solid #ff0000cc;
+    border: 1px solid #18749d;
     cursor: pointer;
     transition: 1s;
 }
 .form-section form button:hover{
-    background-color: #ff000066;
+    background-color: #03b3ffb3;
+    border-radius: 4px;
 }
 .form-section .container-sm-box {
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -30px;
+    border: 1px solid black;
+}
+.form-section .options {
+    background-color: dodgerblue;
+    padding-left: 20px;
+    padding-right: auto;
+    line-height: 20px;
+    font-size: medium;
+}
+.form-section .options a {
+    text-decoration: none;
 }
 /* options */
 .social-media{
