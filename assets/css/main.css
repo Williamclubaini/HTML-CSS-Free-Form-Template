@@ -5,6 +5,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .container {
     position: absolute;
@@ -14,12 +15,12 @@ body {
 }
 .form-section {
     position: relative;
-    top: 9%;
+    top: 10%;
     max-width: 550px;
     border: 1px solid #dd450fed;
     margin-left: auto;
     margin-right: auto;
-    height: 710px;
+    height: 716px;
     border-radius: 8px;
     background-color: #fff;
 }
@@ -60,7 +61,7 @@ form input[type="email"],input[type="password"] {
 
 }
 form input[type = "checkbox"] { 
-    margin-left: -14%;
+    margin-left: -5%;
 }
 form button {
     height: 40px;
@@ -76,16 +77,22 @@ form button:hover{
     background-color: #03b3ffb3;
     border-radius: 4px;
 }
+form a {
+    text-align: end;
+    margin-top: -5px;
+    text-decoration: none;
+}
 .container-sm-box {
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -5px;
+    margin-top: -40px;
 }
 .information {
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
     font-size: medium;
     text-align: center;
+    width: 50%;
 }
 /* options */
 .social-media{
