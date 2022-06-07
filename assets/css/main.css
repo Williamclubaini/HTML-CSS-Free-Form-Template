@@ -15,12 +15,12 @@ body {
 }
 .form-section {
     position: relative;
-    top: 10%;
+    top: 12%;
     max-width: 550px;
     border: 1px solid #18a3df;
     margin-left: auto;
     margin-right: auto;
-    height: 730px;
+    height: 687px;
     border-radius: 8px;
     background-color: #fff;
 }
@@ -41,13 +41,14 @@ body {
     object-fit: scale-down;
 }
 header {
-    margin-top: 45px;
+    margin-top: 26px;
 }
 header h1 {
     font-size: 37px;
 }
 header h1, p {
     text-align: center;
+    color: #050505e1;
 }
 header  p {
     margin-top: -15px;
@@ -56,17 +57,17 @@ header  p {
 form {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 15px;
     padding: 50px;
+    /* background-color: #03b3ff; */
+    margin-top: -30px;
 }
 form input[type="email"],input[type="password"] {
     height: 37px;
     border-radius: 5px;
-    border: 1px solid #000;
+    border: 1px solid #050505e1;
     outline: none;
     text-indent: 10px;
-    /* outline-color: #000; */
-
 }
 form input[type = "checkbox"] { 
     margin-left: -5%;
