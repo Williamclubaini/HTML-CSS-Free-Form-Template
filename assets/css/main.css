@@ -1,4 +1,6 @@
 @import url('../icon/css/font-awesome.css');
+@import url('responsiveness.css');
+
 body {
     /* background-image: var(--conic-theme-1); */
     background-color: #e3e3e333;
@@ -122,12 +124,14 @@ form a {
     border-radius: 50%;
     height: 43px;
     width: 43px;
-    transition: 1.7s;
 }
 .icons-box i {
     margin: 13px;
     font-size: larger;
     color: #fff;
+}
+.forgot-password {
+    margin-right: 1%;
 }
 .facebook{
     background-color: #3b5998;
@@ -144,6 +148,9 @@ form a {
 .instagram {
     background-color: #5851DB;
     border: 1px solid #5851DB;
+}
+.facebook:hover, .twitter:hover, .linkedin:hover, .instagram:hover {
+    transition: 1.7s;
 }
 .facebook:hover{
     border:1px solid #3b5998;
